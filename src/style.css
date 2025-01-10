@@ -1,5 +1,4 @@
 body {
-  background: transparent; /* Make it white if you need */
   padding: 0 24px;
   margin: 0;
   display: flex;
@@ -9,7 +8,7 @@ body {
 }
 
 .App {
-  color: #f3f3f3;
+  color: #120f0f;
 }
 
 .repositorie {
@@ -20,5 +19,15 @@ body {
 }
 
 .image {
-  max-height: 120px;
+  height: 80px;
+  width: 80px;
+}
+
+.link {
+  text-decoration: none;
+  background-color: #190334;
+  color: #eee7e7;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
 }

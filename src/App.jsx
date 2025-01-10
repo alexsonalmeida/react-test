@@ -5,7 +5,7 @@ export function App(props) {
   return (
     <div className='App'>
       <h1>Oba!</h1>
-
+      <h2>Some of my favorities repositories in Github</h2>
       <RepositorieList/>
     </div>
   );

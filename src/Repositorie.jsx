@@ -4,7 +4,7 @@ export function Repositorie(props) {
   return (
     <div className='repositorie'>
       <img src={props.link} className="image"/>
-      <h3>{props.name}</h3>
+      <a href={`${props.repositoryLink}`} target='_blak' className='link'>{props.name}</a>
     </div>
   );
 }
